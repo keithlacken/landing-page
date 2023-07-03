@@ -1,17 +1,18 @@
 body {
     font-family: roboto;
+    background-color: #1F2937;
 }
 .header-body {
     display: flex;
     justify-content: space-around;
     padding: 8px;
     margin-left: 50px;
-    background-color: #1F2937;
+    
     align-items: center;
 }
 .header {
     color:rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 25px;
 }
 a {
     text-decoration: none;
@@ -23,3 +24,32 @@ ul {
   gap: 16px;  
   list-style-type: none;
 }
+.landing-image {
+    width: 500px;
+    height: 250px;
+    margin-left: 50px;
+}
+.main-content {
+    display:flex;
+    margin-top: 42px;
+    color: aliceblue;
+    align-items: center;
+   
+    justify-content: center;
+}
+.right {
+    display: flex;
+    
+}
+h1 {
+    font-size: 35px;
+}
+button {
+    cursor: pointer;
+    padding: 10px 30px;
+    border-radius: 9px;
+    color:rgb(255, 255, 255);
+    background-color: rgb(73, 73, 158);
+    border-color: rgb(73, 73, 158);
+    font-size:medium;
+  }
