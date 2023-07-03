@@ -1,14 +1,15 @@
 body {
     font-family: roboto;
-    background-color: #1F2937;
+    background-color: hsl(215, 28%, 17%);
 }
 .header-body {
     display: flex;
     justify-content: space-around;
     padding: 8px;
     margin-left: 50px;
-    
+   
     align-items: center;
+    flex: 1;
 }
 .header {
     color:rgb(255, 255, 255);
@@ -24,6 +25,8 @@ ul {
   gap: 16px;  
   list-style-type: none;
 }
+
+/* bannner or landing page and imaage or section two */
 .landing-image {
     width: 500px;
     height: 250px;
@@ -53,3 +56,46 @@ button {
     border-color: rgb(73, 73, 158);
     font-size:medium;
   }
+  /* information section */
+  img {
+    width: 100px; 
+    height: 100px;
+    margin-left: 30px;
+    border: 5px solid hsl(215, 28%, 17%);
+  }
+  .information-title {
+    font-size: 36px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+    margin-top: 50px;
+    background-color: #eee;
+    padding-top: 50px;
+  }
+ 
+  
+.images-text {
+    display: flex;
+    justify-content: center;  
+    margin-left: 70px; 
+
+}
+.container {
+        flex-basis: 300px;
+     
+    justify-content: center;
+    display: flex;
+    flex-direction: column;   
+}
+.text {
+    width: 150px;
+    margin-left: 20px;
+    margin-bottom: 42px;
+}
+.information-section {
+    background-color: #eee;
+  
+}
+
+
